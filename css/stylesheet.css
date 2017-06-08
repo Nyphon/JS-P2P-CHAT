@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  color: #fff;  
+  
+  /*DEBUG*/
+/*border: 1px dotted magenta;*/
+}
+
+html {
+  background-color: #263238;  
+  width: 100%;
+  height: 100%;  
+  overflow: hidden;
+}
+
+header {
+  padding-left: 15px;
+  padding-right: 15px;
+  height: 50px;
+  line-height: 50px;
+  background-color: #01579b;
+}
+
+header .brand {
+  font-weight: bold;
+}
+
+header .nav {
+  width: 40%;
+  margin: 0 auto;
+  list-style: none;
+  display: table;
+  margin-top: -50px;
+  text-align: center;
+}
+
+header .nav li {
+  display: inline-block;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+header .nav li a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.channel-list {
+  background-color: #01579b;
+  position: absolute;
+  top: 50px;
+  left: 0px;
+  bottom: 0px;
+  width: 15%;
+  height: 100%;
+}
+
+.channel {
+  position: absolute;
+  top: 50px;
+  right: 0px;
+  bottom: 0px;
+  width: 85%;
+  height: 100%;
+  -moz-box-shadow:    inset 0 0 10px #000000;
+   -webkit-box-shadow: inset 0 0 10px #000000;
+   box-shadow:         inset 0 0 10px #000000;
+}
+
+.message-list {  
+  margin-bottom: 40px;
+  max-height: 100%;
+  padding: 5px;
+  list-style: none;
+  overflow: auto;
+  bottom: 40px;
+  z-index: -1;
+}
+
+.message-list li {
+  padding: 5px;
+  margin-top: 5px;
+  display: block;
+}
+
+.message-list li ul li {
+  list-style: none;
+  display: block;
+}
+
+.inputarea {
+  background-color: #01579b;
+  position: fixed;
+  height: 40px;
+  bottom: 0px;
+  left: 15%;
+  right: 0px;
+}
+
+.inputarea input {
+  background-color: rgba(0,0,0,.5);
+  border: none;
+  height: 40px;
+  width: 80%;
+  display: inline-block;
+  padding-left: 5px;  
+  font-weight: bold;
+}
+
+.inputarea .button-group {
+  float: right;
+}
+
+.bubble-left
+{
+  display: block;
+  float: left;
+  margin-left: 15px;
+padding: 0px;
+background: #0075A5;
+-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+border-radius: 3px;
+}
+
+.bubble-right
+{
+  display: block;
+  float: right;
+  margin-right: 15px;
+padding: 0px;
+background: #00B7A0;
+-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+border-radius: 3px;
+}
