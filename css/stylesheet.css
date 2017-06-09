@@ -115,7 +115,6 @@ header .nav li a {
 
 .bubble-left
 {
-  display: block;
   float: left;
   margin-left: 15px;
 padding: 0px;
@@ -127,7 +126,6 @@ border-radius: 3px;
 
 .bubble-right
 {
-  display: block;
   float: right;
   margin-right: 15px;
 padding: 0px;
