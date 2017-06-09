@@ -115,6 +115,7 @@ header .nav li a {
 
 .bubble-left
 {
+  position:relative;
   float: left;
   margin-left: 15px;
 padding: 0px;
