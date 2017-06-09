@@ -85,6 +85,10 @@ header .nav li a {
   display: block;
 }
 
+.message-list lu ul {
+  display: block; 
+}
+
 .message-list li ul li {
   list-style: none;
   display: block;
